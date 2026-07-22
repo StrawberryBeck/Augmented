@@ -11,12 +11,22 @@ body {
   padding: 0;
   width: 100%;
   height: 100%;
+  background-image: 
+  linear-gradient(#6fbfee,#4367b5,#32205e);
+}
+h1 {
+  font-family: Drybrush;
+  text-align:center;
+  font-size: 5vw;
+  color:#32205e;
+
 }
 
 model-viewer {
   width: 100%;
-  height: 90%;
-  background-color: #ffffff;
+  height: 100vh;
+  background-color: transparent;
+  
 }
 
 
@@ -106,4 +116,11 @@ model-viewer[ar-status="session-started"] > #ar-prompt {
 
 model-viewer > #ar-prompt > img {
   animation: circle 4s linear infinite;
+}
+
+
+@font-face {
+  font-family: Drybrush;
+  font-style: normal;
+  src: url("./Drybrush-KV2wD.ttf");
 }
