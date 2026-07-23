@@ -1,3 +1,19 @@
+*{
+    background-image: 
+    linear-gradient(#241844,#2f3f6e,#241844);
+    margin:0;
+    padding:0;
+}
+body{
+    background-image: 
+    linear-gradient(#241844,#2f3f6e,#241844);
+}
+
 #delta{
     width:50vw;
+}
+
+.bubbles{
+    background-image: none;
+    width: 30%;
 }

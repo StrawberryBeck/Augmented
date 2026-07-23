@@ -2,7 +2,7 @@
 
 
 
-const image = document.getElementById("delta");
+const image = document.getElementById("sound");
 const sound = new Audio("./sound.mp3");
 
 image.addEventListener("click", () => {
