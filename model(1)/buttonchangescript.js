@@ -6,6 +6,6 @@ const buttonid = document.querySelector("#hibutton");
 const buttontext = "Hi";
 
 buttonid.addEventListener("click", () => {
-    buttonid.innerHTML="Loser :3";
+    buttonid.innerHTML=":3";
 });
 
